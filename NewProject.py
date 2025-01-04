@@ -24,3 +24,15 @@ dengan menggunakan triple quote
 print(Line2)
 
 # string di python bisa multi line dengan menggunakan triple quote
+
+'''
+tipe data collection
+'''
+
+'''
+Dalam python sama seperti R language yang dapat membuat list dengan berbagai macam tipe data 
+primitf kedalam sebuah colection 
+'''
+
+list_data = ['apple', 10, True, 'banana', 15.5]
+print(list_data)
