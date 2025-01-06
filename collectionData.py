@@ -1,24 +1,28 @@
 
 '''
-tipe data collection
+=========================TIPE DATA COLLECTION==================
 '''
 
 '''
 Dalam python sama seperti R language yang dapat membuat list dengan berbagai macam tipe data 
-primitf kedalam sebuah colection 
+primitif kedalam sebuah colection 
 '''
-
+'''
+========================= List ==================================
+'''
 list_data = ['apple', 10, True, 'banana', 15.5]
 print(list_data)
+#akan mem-print isi dari var list_data
+
 listBuah = ["apel", "pisang", "manggis", "durian", "nangka", "jeruk", "nanas", "buni", "mengkudu", "menteng", "bengkoang", "jambu Air", "jambu Biji"]
 '''
 adapun lagi metode slicing
 slicing memiliki pola sebagai berikut :
 sequence [start:stop:step]
 start adalah index pertama yang anda ambil
-stop adalah index terakhir yang diambil sementara step adalah
-jumlah elemen yang ingin anda lewati di antara setiap elemen slice.
-by default nilai dari slice adalah 1
+stop adalah index terakhir yang diambil, stop bersifat adalah tidak di ikutsertakan ke dalam print item.
+Step adalah jumlah elemen yang ingin anda lewati di antara setiap elemen slice.
+by default nilai dari step adalah 1 
 '''
 print(listBuah[5:12])
 # mencetak list tertentu dengan indexing
