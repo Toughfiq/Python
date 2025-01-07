@@ -33,10 +33,25 @@ print(listBuah[::2])
 print(listBuah[::-1])
 #ini akan mem print seberapa panjang list yang disertakan hasil yang di print akan menjadi 13
 print(len(listBuah))
+'''
+========================== Tuple====================
+'''
+'''
+Selain trdapat juga tuple yang menggunakan dengan "()" dan bersifat immutable sementara list dapat di append
+untuk menambahkan item kedalam list
+'''
+
+tuple_data = ('apple', 10, True, 'banana', 15.5)
+
+print(tuple_data)
+#ini akan mem- print nilai darituple yang telah dibuat 
 
 '''
-Selain list terdapat juga tuple yang menggunakan dengan "()" dan bersifat immutable sementara list dapat di append
-untuk menambahkan item kedalam list. Ada pula set yang menggunakan "{}" yang wajib diisi oleh item 
+========================= Dictionary====================
+'''
+dict_data = {'nama': 'John Doe', 'umur': 30, 'tinggi': 175, 'tinggi_cm': 1750}
+'''
+. Ada pula set yang menggunakan "{}" yang wajib diisi oleh item 
 immutable, set ini tidak memilki indeks dan menggunakan sistem hash table. set ini dapat diisi dengan tuple.
 namun set tidak cocok untuk menciptakan matrik karena bersifat unordered.
 untuk membuat matrik dapat digunakan list of list.

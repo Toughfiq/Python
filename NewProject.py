@@ -14,6 +14,7 @@ var = 11
 print (var)
 print (id(var))
 
+
 #hal diatas membutikan bahwa numbers di python bersifat immutable karena address yang dihasilkan
 # saat assignment ulang dilakukan maka bukan merubah isi dari variable itu sendiri tetapi menulis ulang variable tersebut.
 
