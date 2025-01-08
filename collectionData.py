@@ -51,10 +51,14 @@ print(tuple_data)
 '''
 dict_data = {'nama': 'John Doe', 'umur': 30, 'tinggi': 175, 'tinggi_cm': 1750}
 '''
+
 . Ada pula set yang menggunakan "{}" yang wajib diisi oleh item 
 immutable, set ini tidak memilki indeks dan menggunakan sistem hash table. set ini dapat diisi dengan tuple.
+set bersifat unique yang berarti tidak dapat diisi dengan value yang sama. sehingga set sangat cocok digunakan untuk cleansing data.
+
 namun set tidak cocok untuk menciptakan matrik karena bersifat unordered.
 untuk membuat matrik dapat digunakan list of list.
+
 set dapat bersifat seperti himpunan di matematika sehingga dapat menggunakan method union atau intersection
 untuk menggabungkan antar set.
 
