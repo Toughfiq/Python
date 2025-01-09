@@ -49,7 +49,8 @@ print(tuple_data)
 '''
 ========================= Dictionary====================
 '''
-dict_data = {'nama': 'John Doe', 'umur': 30, 'tinggi': 175, 'tinggi_cm': 1750}
+dict_data = {'nama': 'John Doe', 'umur': 30, 'tinggi': 175, 'tinggi_cm': 1750, 'isMarried': True}
+print(dict_data)
 '''
 
 . Ada pula set yang menggunakan "{}" yang wajib diisi oleh item 
