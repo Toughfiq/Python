@@ -9,6 +9,13 @@ tambahZ = new.zfill(5)
 print(tambahZ)
 # zfill ini tidak bisa menggunakan tipe data int
 
+#contoh menggunakan looping pada zfill
+i = 1
+iLoop = str(i).zfill(3)
+for i :
+if i <101:
+print (i): i++
+iloop =str(i).zfill(3)
 #rjust()
 #ljust()
 #center() 
