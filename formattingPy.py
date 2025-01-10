@@ -12,10 +12,11 @@ print(tambahZ)
 #contoh menggunakan looping pada zfill
 i = 1
 iLoop = str(i).zfill(3)
-for i :
-if i <101:
-print (i): i++
-iloop =str(i).zfill(3)
+
+while i < 101:
+    print(iLoop)
+    i += 1
+    iLoop = str(i).zfill(3)
 #rjust()
 #ljust()
 #center() 
