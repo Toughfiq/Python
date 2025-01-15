@@ -48,6 +48,10 @@ hasil = any(kata.startswith("Ru") for kata in kata_tuple)
 print(hasil)  # Output: True
 
 #rjust()
-
 #ljust()
 #center() 
+'''
+ketiga format diatas akan merapihkan  pencetakan teks 
+r untuk rata kanan, l untuk rata kiri dan center untuk rata tengah.
+
+'''
