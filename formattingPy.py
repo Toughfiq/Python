@@ -21,7 +21,32 @@ while i < 101:
 '''
 Metode startswith() 
 bertujuan untuk menemukan suatu kata pada awal string. Metode ini mengembalikan nilai True
+
+Startwith() sendiri digunakan untuk validasi data atau filtering dan pengolahan string itu sendiri
+berikut adalah beberapa contoh penggunaan startswith()
 '''
+#mencari/memvalidasi format data
+nomor_hp = "08123456789"
+if nomor_hp.startswith("08"):
+    print("Nomor Indonesia")
+#dapat juga digunakan untuk memfilter string dengan awalan tertentu
+kata = ["Python", "Java", "Ruby", "Rust"]
+hasil = [k for k in kata if k.startswith("R")]
+print(hasil)  # Output: ['Ruby', 'Rust']
+#startwith() juga dapat digunakan untuk mengecek url
+url = "https://www.example.com"
+if url.startswith("https://"):
+    print("URL aman")
+#Parsing file atau log
+log = "[ERROR] File not found"
+if log.startswith("[ERROR]"):
+    print("Ada kesalahan!")
+
+#namun startwith memiliki keterbatasan dalam mencari pada list,tuple atau set, namun dapat digunakan any()
+kata_tuple = ("Ruby", "Rust", "Racket")
+hasil = any(kata.startswith("Ru") for kata in kata_tuple)
+print(hasil)  # Output: True
+
 #rjust()
 
 #ljust()
