@@ -48,3 +48,9 @@ print(color)    # Output: ['white', 'black']
 print(size)     # Output: ['L', 'M']
 
 #sorting pada python
+kendaraan = ['motor', 'mobil', 'helikopter', 'pesawat']
+kendaraan.sort()  #kendaraan.sort(reverse=True) gunakan itu jika ingin membalik urutan
+
+print(kendaraan)
+# perlu diingat  sort tidak dapat mengurutkan list yang memiliki angka dan string sekaligus di dalamnya.
+# sort juga menggunakan metode ASCII sehingga kapital akan di dahulukan.
