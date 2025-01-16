@@ -20,4 +20,31 @@ print('tidak' in kalimat)
 print('Dicoding' not in kalimat)
 print('tidak' not in kalimat)
 
+#multiple value assignment
+#tahap ini akan sedikit mirip dengan mysql dan juga pembuatan matriks
 
+data = ['shirt', 'white', 'L']
+apparel, color, size = data
+
+print(data)
+print(apparel)
+print(color)
+print(size)
+#perlu diperhatikan pada line 27 harus dipastikan jumlah variable yang akan di assign berjumlah
+#sama dengan isi dari pada isi list itu sendiri atau akan menjadi error
+
+'''
+jika ingin mengulang assign value maka dapat dilakukan sebagai berikut
+'''
+data = ['shirt', 'white', 'L', 'sweater', 'black', 'M']
+
+apparel = data[::3]  # Indeks 0, 3 → ['shirt', 'sweater']
+color = data[1::3]   # Indeks 1, 4 → ['white', 'black']
+size = data[2::3]    # Indeks 2, 5 → ['L', 'M']
+
+print(data)
+print(apparel)  # Output: ['shirt', 'sweater']
+print(color)    # Output: ['white', 'black']
+print(size)     # Output: ['L', 'M']
+
+#sorting pada python
