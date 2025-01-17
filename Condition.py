@@ -1,1 +1,2 @@
-name = input ("sebutkan nama")
+name = input ("sebutkan nama :")
+print(name)
