@@ -5,7 +5,6 @@ try:
     print(nilai)
 except ValueError:
     print("Input harus berupa angka!")
-nilai = 75
 if nilai >= 85:
     print("Nilai A,Hebat")
 elif nilai >= 70:
