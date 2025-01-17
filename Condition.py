@@ -10,9 +10,9 @@ if nilai >= 85:
     print("Nilai A,Hebat")
 elif nilai >= 70:
     print("Nilai B,Tingkatkan lagi")
-elif nilai>=60
+elif nilai>=60:
   print("Nilai C,Belajar lagi ya!")
-elif nilai>=50
+elif nilai>=50:
   print("Nilai D,Jangan menyerah")
 else:
     print("Nilai E,Goblok!")
