@@ -7,5 +7,6 @@ for b in buah:
   jika dilakukan print(buah) maka output yang akan dihasilkan adalah full list sebanyak jumlah file iterable atau full list sebanyak 5 kali
   """
   #====== for loop dengan range ======
-  
+  for i in range(6):
+    print(i)
 #while loop
