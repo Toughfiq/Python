@@ -1,12 +1,23 @@
 #=========for loop========
 buah = ["jambu", "buni", "tamarin", "menteng", "matoa"]
 for b in buah:
-  print(b)
-  """
-  b adalah sebuah variable sementara untuk menyimpan file iterable/file yang dapat dihitung,dalam kasus diatas berjumlah 5, b dapat diganri dengan sembarang variable lain.
-  jika dilakukan print(buah) maka output yang akan dihasilkan adalah full list sebanyak jumlah file iterable atau full list sebanyak 5 kali
-  """
-  #====== for loop dengan range ======
-  for i in range(6):
+    print(b)
+    if buah.index(b) == len(buah) - 1:  # Cek apakah elemen terakhir sudah diproses
+        print("List selesai")
+
+"""
+Penjelasan:
+- 'buah.index(b) == len(buah) - 1' memastikan bahwa pesan "List selesai" hanya dicetak setelah elemen terakhir.
+- Loop karakter ('for item in b') dihapus karena tidak diperlukan.
+"""
+
+#====== for loop dengan range ======
+for i in range(5):
     print(i)
+"""
+Penjelasan:
+- range(5) mengembalikan iterable sebanyak 5, yaitu [0, 1, 2, 3, 4].
+- 'print(i)' mencetak nilai index secara berurutan.
+"""
+
 #while loop
