@@ -11,3 +11,14 @@ telur yang retak
 Jika semua telur sudah diperiksa dan tidak ada yang retak, program memberitahu 
 bahwa semua telur dalam kondisi baik
 '''
+telur = ["retak", "bagus", "bagus", "bagus", "retak", "bagus", "retak"]
+statusTelur = []
+
+for b in telur:
+    if b == "retak":
+        statusTelur.append(1) 
+    else: 
+        statusTelur.append(0)
+    print(statusTelur)
+if statusTelur == 1:
+    print(f"Telur yang retak ditemukan pada posisi {telur.index(b)+1}")
