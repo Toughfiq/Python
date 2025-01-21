@@ -31,5 +31,7 @@ statusTelur = []
 for index, b in enumerate(telur):
     if b == "retak":
         statusTelur.append(1)
+    else:
+        statusTelur.append(0)
         print(statusTelur)
         print(f"Telur yang retak ditemukan pada posisi {index + 1}")
