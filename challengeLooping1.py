@@ -13,12 +13,23 @@ bahwa semua telur dalam kondisi baik
 '''
 telur = ["retak", "bagus", "bagus", "bagus", "retak", "bagus", "retak"]
 statusTelur = []
-
+posisiRetak = []
 for b in telur:
     if b == "retak":
-        statusTelur.append(1) 
+        statusTelur.append(1)
     else: 
         statusTelur.append(0)
     print(statusTelur)
 if statusTelur == 1:
-    print(f"Telur yang retak ditemukan pada posisi {telur.index(b)+1}")
+    print(f"Telur yang retak ditemukan pada posisi {posisiRetak}")
+#==================================================================
+
+#cara jika menggunakan enumerate
+telur = ["retak", "bagus", "bagus", "bagus", "retak", "bagus", "retak"]
+statusTelur = []
+
+for index, b in enumerate(telur):
+    if b == "retak":
+        statusTelur.append(1)
+        print(statusTelur)
+        print(f"Telur yang retak ditemukan pada posisi {index + 1}")
