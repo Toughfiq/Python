@@ -1,6 +1,4 @@
 #kita akan mencoba menggunakan numpy disini 
-import numpy as np
-
 # Membuat matriks 3x3
 import numpy as np
 
