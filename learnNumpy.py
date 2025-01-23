@@ -1,4 +1,4 @@
-#nested bisa juga dibilang sebagai matriks
+#kita akan mencoba menggunakan numpy disini 
 import numpy as np
 
 # Membuat matriks 3x3
