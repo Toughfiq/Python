@@ -12,7 +12,7 @@ A = np.array([
 print(A[1, 2])  # Output: 6
 
 # Transpos matriks
-print(A.T)
+print(f"ini adalah transpose matrikas", "\n", A.T)
 
 # Menjumlahkan matriks
 B = np.array([
@@ -22,3 +22,13 @@ B = np.array([
 ])
 C = A + B
 print(C)
+'''
+Beberapa operasi penting dalam NumPy:
+
+A.shape → Mengetahui ukuran matriks (baris, kolom)
+A.T → Transpos matriks
+np.dot(A, B) → Perkalian matriks
+np.linalg.inv(A) → Invers matriks (jika matriks persegi dan inversible)
+np.linalg.det(A) → Determinan matriks
+
+'''
