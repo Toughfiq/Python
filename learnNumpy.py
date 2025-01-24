@@ -32,3 +32,8 @@ np.linalg.inv(A) → Invers matriks (jika matriks persegi dan inversible)
 np.linalg.det(A) → Determinan matriks
 
 '''
+#mengetahui ukuran dari matriks
+print(f"ini adalah ukuran dari matriks \n", "A = ", A.shape, "\n B = ", B.shape) 
+#melakukan perkalian matriks
+matriksDot = np.dot(A, B)
+print(f"ini adalah hasil perkalian matriks 3D = \n", matriksDot)
