@@ -37,3 +37,19 @@ print(f"ini adalah ukuran dari matriks \n", "A = ", A.shape, "\n B = ", B.shape)
 #melakukan perkalian matriks
 matriksDot = np.dot(A, B)
 print(f"ini adalah hasil perkalian matriks 3D = \n", matriksDot)
+B = np.array([
+    [7, 8, 9],
+    [10, 11, 12]
+])
+# Perkalian elemen-per-elemen
+print(A * B)
+
+# Pembagian elemen-per-elemen
+print(B / A)
+
+#menggabungkan matriks
+# Gabungan horizontal
+print(f"Ini adalah gabungan horizontal dari matriks A dan B = \n",np.hstack((A, B)))
+
+# Gabungan vertikal
+print(np.vstack((A, B)))
