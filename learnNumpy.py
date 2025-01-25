@@ -49,4 +49,4 @@ print(f"ini adalah hasil pembagian matriks A dan B = \n", B / A)
 print(f"Ini adalah gabungan horizontal dari matriks A dan B = \n", np.hstack((A, B)))
 
 # Gabungan vertikal
-print(f"Ini adalah hasil gabungan vertikal dari matriks A dan B = \n"np.vstack((A, B)))
+print(f"Ini adalah hasil gabungan vertikal dari matriks A dan B = \n", np.vstack((A, B)))
