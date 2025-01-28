@@ -60,3 +60,7 @@ eigenvalues, eigenvectors = np.linalg.eig(A)
 print("Eigenvalues:", eigenvalues)
 print("Eigenvectors:", eigenvectors)
 #eigenvectors akan digunakan untuk mereduksi dimensi, dan juga analisis matriks bobot untuk memahami bagaimana informasi diolah/diproses
+#normalisasi data di normalisasi
+data = np.array([[50, 60], [80, 90], [100, 110]])
+normalized_data = (data - np.mean(data, axis=0)) / np.std(data, axis=0)
+print(normalized_data)
