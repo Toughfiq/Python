@@ -22,6 +22,7 @@ B = np.array([
 print(f"ini adalah matriks B = \n", B)
 C = A + B
 print(f"ini adalah hasil penjumlahan matriks = \n", C)
+# line 23 bisa disebut juga dengan operasi otomatis/broadcasting
 '''
 Beberapa operasi penting dalam NumPy:
 
