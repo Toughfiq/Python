@@ -50,3 +50,7 @@ print(f"Ini adalah gabungan horizontal dari matriks A dan B = \n", np.hstack((A,
 
 # Gabungan vertikal
 print(f"Ini adalah hasil gabungan vertikal dari matriks A dan B = \n", np.vstack((A, B)))
+
+#invers matriks
+inv_A = np.linalg.inv(A)
+print(f"ini adalah hasil invers matriks A = \n", inv_A)
