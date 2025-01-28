@@ -55,3 +55,7 @@ print(f"Ini adalah hasil gabungan vertikal dari matriks A dan B = \n", np.vstack
 #invers matriks
 inv_A = np.linalg.inv(A)
 print(f"ini adalah hasil invers matriks A = \n", inv_A)
+#eigenvalues dan eigenvectors
+eigenvalues, eigenvectors = np.linalg.eig(A)
+print("Eigenvalues:", eigenvalues)
+print("Eigenvectors:", eigenvectors)
