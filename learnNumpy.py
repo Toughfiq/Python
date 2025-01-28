@@ -59,3 +59,4 @@ print(f"ini adalah hasil invers matriks A = \n", inv_A)
 eigenvalues, eigenvectors = np.linalg.eig(A)
 print("Eigenvalues:", eigenvalues)
 print("Eigenvectors:", eigenvectors)
+#eigenvectors akan digunakan untuk mereduksi dimensi, dan juga analisis matriks bobot untuk memahami bagaimana informasi diolah/diproses
