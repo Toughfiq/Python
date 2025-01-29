@@ -53,12 +53,12 @@ print(f"Ini adalah gabungan horizontal dari matriks A dan B = \n", np.hstack((A,
 print(f"Ini adalah hasil gabungan vertikal dari matriks A dan B = \n", np.vstack((A, B)))
 
 #invers matriks
-inv_A = np.linalg.inv(A)
-print(f"ini adalah hasil invers matriks A = \n", inv_A)
+#inv_A = np.linalg.inv(A)
+#print(f"ini adalah hasil invers matriks A = \n", inv_A)
 #eigenvalues dan eigenvectors
 eigenvalues, eigenvectors = np.linalg.eig(A)
-print("Eigenvalues:", eigenvalues)
-print("Eigenvectors:", eigenvectors)
+print("Eigenvalues:\n", eigenvalues)
+print("Eigenvectors:\n", eigenvectors)
 #eigenvectors akan digunakan untuk mereduksi dimensi, dan juga analisis matriks bobot untuk memahami bagaimana informasi diolah/diproses
 #normalisasi data di normalisasi
 data = np.array([[50, 60], [80, 90], [100, 110]])
