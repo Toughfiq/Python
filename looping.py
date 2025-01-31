@@ -29,4 +29,6 @@ while i <=10:
 #while loop dengan break
 Num = 30
 while Num < 30:
-  
+  print(Num)
+  if Num % 2 = 0:
+    break
