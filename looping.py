@@ -25,3 +25,8 @@ i = 7
 while i <=10:
   print(i)
   i += 7
+
+#while loop dengan break
+Num = 30
+while Num < 30:
+  
