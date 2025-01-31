@@ -21,3 +21,7 @@ Penjelasan:
 """
 
 #while loop
+i = 7
+while <=10:
+  print(i)
+  i += 7
