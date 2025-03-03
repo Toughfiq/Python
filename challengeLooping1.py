@@ -6,10 +6,7 @@ Buatlah program yang:
 
 Menerima list berisi kondisi telur (0 untuk telur bagus, 1 untuk telur retak)
 Memeriksa telur satu per satu menggunakan for loop
-Jika menemukan telur retak (1), program harus berhenti dan memberitahu posisi 
-telur yang retak
-Jika semua telur sudah diperiksa dan tidak ada yang retak, program memberitahu 
-bahwa semua telur dalam kondisi baik
+Jika menemukan telur retak (1), program harus berhenti dan memberitahu posisi telur yang retak jika semua telur sudah diperiksa dan tidak ada yang retak, program memberitahu bahwa semua telur dalam kondisi baik
 '''
 telur = ["retak", "bagus", "bagus", "bagus", "retak", "bagus", "retak"]
 statusTelur = []
